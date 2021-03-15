@@ -8,6 +8,12 @@ func retunrValue(a int) int {
 	return a * 2
 }
 
+func calculateCircleArea(r float64) {
+	const pi float64 = 3.14
+	circleArea := pi * (r * r)
+	fmt.Println("El area del circulo es:", circleArea)
+}
+
 func main() {
 	// Declarion de constantes
 	const pi float64 = 3.14
@@ -84,5 +90,7 @@ func main() {
 
 	value := retunrValue(2)
 	fmt.Println("Value", value)
+
+	calculateCircleArea(10)
 
 }

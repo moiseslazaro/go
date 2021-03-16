@@ -32,6 +32,17 @@ func main() {
 	default:
 		fmt.Println("Es impar")
 	}
+
 	// Sin condicion
+
+	value := -500
+	switch {
+	case value > 100:
+		fmt.Println("Es mayor 100")
+	case value < 0:
+		fmt.Println("Es menor de 0")
+	default:
+		fmt.Println("No condicion")
+	}
 
 }

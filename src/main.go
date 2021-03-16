@@ -93,4 +93,19 @@ func main() {
 
 	calculateCircleArea(10)
 
+	// For conditional
+
+	for i := 0; i < 10; i++ {
+		fmt.Print(i)
+	}
+	fmt.Println()
+
+	// For while
+
+	counter := 0
+	for counter < 10 {
+		fmt.Println(counter)
+		counter++
+	}
+
 }
